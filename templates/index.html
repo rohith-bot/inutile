@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static 'home.css' %}" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% csrf_token %}
+    <div class="full-page">
+        <div class="to-of-page">
+            <a href="#" class="inutile">INUTILE</a>
+            <ul class="top">
+                <li><a href="index/" class="home-button"><img src="{% static '2x/outline_bungalow_black_24dp.png' %}" alt=""></a></a></li>
+                <li><a href="account/" class="account-button"><img src="{% static '2x/outline_perm_identity_black_24dp.png' %}" alt=""></a></a></li>
+                <li><a href="search/" class="search-button"><img src="{% static '2x/outline_search_black_24dp.png' %}" alt=""></a></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <div class="top-of-image">
+                    <a href="#">
+                        <img id="profile-photo"  src="http://unsplash.it/35/35?gravity=center" alt="" class="student-image">
+                    </a>
+                    <a href="#" class="student-name">Name</a>
+                    <button class="follow-button"><img src="{% static '2x/baseline_group_add_black_18dp.png' %}" alt=""></button>
+                </div>
+                
+                <div class="images">
+                    <div ><img  src="http://unsplash.it/500/500?gravity=center" alt=""></div>
+                    
+                    
+                </div>
+                
+                <div class="bottom-of-image">
+                    <button class="like-button"><img src="{% static '2x/baseline_thumb_up_black_18dp.png' %}" alt=""></button>
+                    
+                    <span><p id="description"></span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime mollitia aliquam dolores. Eligendi voluptate incidunt est quidem ipsum iste, libero error ad blanditiis? Facilis soluta quibusdam nemo cumque illo eligendi vitae tenetur, nihil error, deserunt qui distinctio accusamus voluptas?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <div class="top-of-image">
+                    <a href="#">
+                        <img id="profile-photo"  src="http://unsplash.it/35/35?gravity=center" alt="" class="student-image">
+                    </a>
+                    <a href="#" class="student-name">Name</a>
+                    <button class="follow-button"><img src="{% static '2x/baseline_group_add_black_18dp.png' %}" alt=""></button>
+                </div>
+                <div class="images">
+                    <img src="http://unsplash.it/500/500?gravity=center" alt="">
+                </div>
+                <div class="bottom-of-image">
+                    <button class="like-button"><img src="{% static '2x/baseline_thumb_up_black_18dp.png' %}" alt=""></button>
+                    
+                    <span><p id="description"></span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime mollitia aliquam dolores. Eligendi voluptate incidunt est quidem ipsum iste, libero error ad blanditiis? Facilis soluta quibusdam nemo cumque illo eligendi vitae tenetur, nihil error, deserunt qui distinctio accusamus voluptas?
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0%;
+}
+.full-page {
+  background-color: #dadbd3;
+}
+.content {
+  display: flex;
+  background-color: #ededed;
+  margin-top: 10vh;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  margin-bottom: 5vh;
+  box-shadow: -1px 4px 20px -6px rgb(0.3, 0.3, 0.3, 0.5);
+  padding: 15px;
+}
+.to-of-page {
+  position: fixed;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  background-color: brown;
+  top: 0%;
+  width: 100%;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #dadbd3;
+  z-index: 1;
+}
+
+.to-of-page a {
+  text-decoration: none;
+  margin: 15px;
+}
+.top {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;
+}
+.inutile {
+  flex: 1 1 auto;
+  margin-left: 10%;
+}
+.content {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.bottom-of-image {
+  bottom: 0px;
+  padding: 3%;
+}
+
+.images {
+  padding: 3%;
+}
+
+.image-container {
+  margin-top: 10vh;
+}
+.top-of-image a {
+  margin-right: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 3%;
+}
+#profile-photo {
+  border-radius: 50%;
+}
+.follow-button {
+  border-radius: 40%;
+}
+.like-button {
+  border-radius: 40%;
+}
+.search-button {
+  size: 30rem;
+}

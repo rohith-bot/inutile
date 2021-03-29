@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'home.css' %}" type="text/css" rel="stylesheet" />
+    <link href="{% static 'account.css' %}" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    {% csrf_token %}
+    <div class="acc-full-age">
+        <div class="to-of-page">
+            <a href="#" class="inutile">INUTILE</a>
+            <ul class="top">
+                <li><a href="index/" class="home-button"><img src="{% static '2x/outline_bungalow_black_24dp.png' %}" alt=""></a></a></li>
+                <li><a href="account/" class="account-button"><img src="{% static '2x/outline_perm_identity_black_24dp.png' %}" alt=""></a></a></li>
+                <li><a href="search/" class="search-button"><img src="{% static '2x/outline_search_black_24dp.png' %}" alt=""></a></a></li>
+            </ul>
+        </div>
+        <div class="acc-content">
+            <img class="acc-profile-pic" src="http://unsplash.it/300/300?gravity=center" alt="">
+            <h3 class="name">ROHITH S SIDDESHWARA</h3><br>
+            <div class="details">
+                <a href="#" class="following">Following: 300</a><br>
+                <a href="#" class="followers">Followers: 187</a><br>
+                <a href="#" class="posts">Posts: 8</a><br>
+            </div>
+        </div>
+        <div class="post-heading">
+            <h3 class="post-head">Posts</h3>
+        </div>
+        <div class="all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+            <img src="http://unsplash.it/300/300?gravity=center" alt="" class="one-in-all-posts">
+
+        </div>
+    </div>
+    
+
+</body>
+</html>

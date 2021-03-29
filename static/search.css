@@ -1,0 +1,64 @@
+.box1 {
+  background-color: blue;
+  grid-area: box1;
+  object-fit: cover;
+}
+.top-of-page{
+    font-family: "Montserrat", sans-serif;;
+}
+.box2 {
+  background-color: blueviolet;
+  grid-area: box2;
+}
+.box3 {
+  background-color: red;
+  grid-area: box3;
+}
+.box4 {
+  background-color: yellow;
+  grid-area: box4;
+}
+.box5 {
+  background-color: green;
+  grid-area: box5;
+}
+.box6 {
+  background-color: white;
+  grid-area: box6;
+}
+.box7 {
+  background-color: black;
+  grid-area: box7;
+}
+.box8 {
+  background-color: burlywood;
+  grid-area: box8;
+}
+.box9 {
+  background-color: purple;
+  grid-area: box9;
+}
+.box10 {
+  background-color: orange;
+  grid-area: box10;
+}
+.search-content {
+  /* overflow-y: scroll;
+  padding: 3px; */
+  height: 150vh;
+  margin-top: 5%;
+  display: grid;
+  background-repeat: repeat-y;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box5 box6"
+    "box7 box5 box8"
+    "box9 box5 box10";
+  scroll-snap-type: y mandatory;
+}
+.search-content div {
+  border-radius: 12px;
+  margin: 4px;
+}
